@@ -1,11 +1,16 @@
-title: John Doe # your name (or website title) here
+title: Ishan Srivastava # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  
+  I am a Data Scientist with a foundation in Theoretical Physics, 
+  presently working at Intellithink Industrial IoT Labs. 
+  My enthusiasm for continual learning drives me to actively share my knowledge in the most public and accessible manner possible 
+  <br><br>  
+  I specialize in leveraging Machine Learning and Deep Learning techniques for Predictive Maintenance and 
+  Anomaly Detection in the realm of Industrial Heavy Machinery and Equipment. 
+  Through the application of ML/DL, my efforts contribute to significant cost savings, mitigating unplanned downtime and optimizing maintenance expenditures, resulting in multimillion-dollar benefits for organizations.
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/ishansrivastava96/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
