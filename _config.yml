@@ -1,6 +1,14 @@
 title: Ishan Srivastava # your name (or website title) here
+
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
+
 description: > # your text below (remove <br> elements if you don't need line breaks)
+
+  <p align="center">
+  <a href="pdf/resume.pdf">Resume</a> |
+  <a href="https://www.linkedin.com/in/ishansrivastava96/">LinkedIn</a> |
+  <a href="https://github.com/Ishan-phys">GitHub</a>
+  </p>
   
   I am a Data Scientist with a foundation in Theoretical Physics, 
   presently working at Intellithink Industrial IoT Labs. 
@@ -10,7 +18,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   Anomaly Detection in the realm of Industrial Heavy Machinery and Equipment. 
   Through the application of ML/DL, my efforts contribute to significant cost savings, mitigating unplanned downtime and optimizing maintenance expenditures, resulting in multimillion-dollar benefits for organizations.
   <br><br>
-  <a href="https://www.linkedin.com/in/ishansrivastava96/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
