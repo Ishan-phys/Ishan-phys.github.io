@@ -1,21 +1,30 @@
-## Portfolio
+# Portfolio
 
 ---
 
-### Category Name 1 
+## Computer Vision 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### Diffusion Bases Generative AI Projects
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Score-Based Generative AI with Stochastic Differential Equations](https://github.com/Ishan-phys/Generative-Modelling-with-SDEs)
+<img src="images/GM_SDE.png?raw=true"/>
 
 ---
+[Diffusion SDE - A score-based generative modelling with SDEs package](https://github.com/Ishan-phys/Diffusion-SDE)
+<img src="images/header.png?raw=true"/>
+
+---
+[Paired Image to Image Translation using Diffusion Models](https://github.com/Ishan-phys/paired-via-sde)
+<img src="images/paired.png?raw=true"/>
+
+---
+
+### Generative Adversarial Networks Based Projects
+
+[CycleGans for Medical Image Translation](https://github.com/Ishan-phys/CycleGANs)
+<img src="images/cyc_gan.png?raw=true"/>
+
 
 ### Category Name 2
 
@@ -27,9 +36,10 @@
 
 ---
 
+### Publications
 
+- [Constraining the weights of Stokes polytopes using BCFW recursions for $\phi^4$](https://link.springer.com/article/10.1007/JHEP04(2021)064)
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+<center>© 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.</center>
