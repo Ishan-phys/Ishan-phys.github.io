@@ -6,7 +6,9 @@
 ### Machine Learning Based Predictive Maitenance
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/predictive-maintenance-ml)
-<img src="images/fft.png?raw=true"/>
+<br>
+<center><img src="images/fft.png?raw=true"/></center>
+<br>
 
 ---
 
@@ -15,28 +17,36 @@
 ### Score-Based Generative AI with Stochastic Differential Equations
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Generative-Modelling-with-SDEs)
-<img src="images/GM_SDE.png?raw=true"/>
+<br>
+<center><img src="images/GM_SDE.png?raw=true"/></center>
+<br>
 
 ---
 
 ### Diffusion SDE - A score-based generative modelling with SDEs package
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Diffusion-SDE)
-<img src="images/header.png?raw=true"/>
+<br>
+<center><img src="images/header.png?raw=true"/></center>
+<br>
 
 ---
 
 ### Paired Image to Image Translation using Diffusion Models
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/paired-via-sde)
-<img src="images/paired.png?raw=true"/>
+<br>
+<center><img src="images/paired.png?raw=true"/></center>
+<br>
 
 ---
 
 ### CycleGans for Medical Image Translation
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/CycleGANs)
-<img src="images/cyc_gan.png?raw=true"/>
+<br>
+<center><img src="images/cyc_gan.png?raw=true"/></center>
+<br>
 
 
 ## Publications
