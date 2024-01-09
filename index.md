@@ -53,6 +53,10 @@
 
 - [Constraining the weights of Stokes polytopes using BCFW recursions for phi^4](https://link.springer.com/article/10.1007/JHEP04(2021)064)
 
+<br>
+<center><img src="images/paper.png?raw=true"/></center>
+<br>
+
 
 ---
 <center>© 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.</center>
