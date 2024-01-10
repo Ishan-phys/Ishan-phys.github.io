@@ -61,7 +61,7 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Unpaired-via-SDE)
 
-[![View Thesis](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)]https://github.com/Ishan-phys/Unpaired-via-SDE/blob/main/report/ProjectReport.pdf
+[![View Thesis](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Unpaired-via-SDE/blob/main/report/ProjectReport.pdf)
 
 <br>
 <center><img src="images/thesis.png?raw=true"/></center>
