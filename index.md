@@ -24,7 +24,7 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Generative-Modelling-with-SDEs)
 
 <br>
-<center><img src="images/GM_SDE.png?raw=true"/></center>
+<center><img src="images/diffusion schematic 2.jpg?raw=true"/></center>
 <br>
 
 ---
@@ -56,11 +56,16 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 
 ---
 
-### Unpaired Image-to-Image Translation (Master's Thesis)
+### Unpaired Image-to-Image Translation (Master's Project)
 
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Unpaired-via-SDE)
 
+[![View Thesis](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)]https://github.com/Ishan-phys/Unpaired-via-SDE/blob/main/report/ProjectReport.pdf
+
+<br>
+<center><img src="images/thesis.png?raw=true"/></center>
+<br>
 ---
 
 ## Publications
