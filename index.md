@@ -1,5 +1,7 @@
 # Portfolio
+
 ---
+
 ## Machine Learning
 
 ### Predictive Maintenance using Machine Learning based Anomaly Detection - End-to-End Solution
@@ -61,11 +63,10 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Unpaired-via-SDE)
 
-[![View Thesis](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Unpaired-via-SDE/blob/main/report/ProjectReport.pdf)
-
 <br>
 <center><img src="images/thesis.png?raw=true"/></center>
 <br>
+
 ---
 
 ## Publications
@@ -78,4 +79,5 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 
 
 ---
+
 <center>© 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.</center>
