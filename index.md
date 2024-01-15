@@ -9,11 +9,8 @@
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/predictive-maintenance-ml)
 
 **Real-Time Anomaly Detection App:** 
-Developed a three-tier application for providing an end-to-end machine learning solution for predictive maintenance. The application features a user-friendly web interface for real-time monitoring of equipment health, a machine learning model for anomaly detection, and a cloud database for efficient storage and retrieval of predictions. The integration of advanced analytics, cloud technology, and user interface design contributes to the effectiveness of the application in preventing potential equipment failures and enhancing overall operational efficiency.
 
-I developed a real-time anomaly detection system for monitoring the health of four bearings on a shaft driven by an AC motor. Leveraging a combination of statistical methods and machine learning algorithms, the system analyzes sensor data collected from the bearings. The machine learning model is trained on the [IMS Bearing Data](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/) from the Center for Intelligent Maintenance Systems, ensuring adaptability to various patterns indicative of bearing health. Deployed on a cloud platform, the system not only detects anomalies in real-time but also features a user-friendly web application displaying predictions, time waveforms, and FFT spectra. The integration of MongoDB facilitates efficient storage and retrieval of predictions, contributing to a comprehensive solution for proactive equipment maintenance.
-
-This project emphasizes the seamless integration of advanced analytics, cloud technology, and user interface design to create a robust and accessible anomaly detection system. The combination of real-time monitoring, machine learning, and intuitive visualization contributes to its effectiveness in preventing potential equipment failures and enhancing overall operational efficiency.
+ Developed a robust three-tier application aimed at delivering a comprehensive machine learning solution for predictive maintenance. The system encompasses a user-friendly web interface powered by Streamlit for real-time monitoring of equipment health, a sophisticated machine learning model designed for anomaly detection, and a MongoDB-based database ensuring efficient storage and retrieval of predictions. By seamlessly integrating advanced analytics, cloud technology, and thoughtful user interface design, the application proves highly effective in preventing potential equipment failures and enhancing overall operational efficiency. The system relies on a combination of statistical methods and machine learning algorithms to analyze sensor data, specifically leveraging the renowned IMS Bearing Data from the Center for Intelligent Maintenance Systems. Deployed on a cloud platform, the solution not only detects anomalies in real-time but also provides a user-friendly web application displaying predictions, time waveforms, and FFT spectra. The incorporation of MongoDB further contributes to the system's efficiency in proactive equipment maintenance by facilitating seamless storage and retrieval of predictions.
 
 <br>
 <center><img src="images/fft.png?raw=true"/></center>
@@ -23,19 +20,14 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 
 ## Computer Vision 
 
-### Score-Based Generative AI with Stochastic Differential Equations
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Generative-Modelling-with-SDEs)
-
-<br>
-<center><img src="images/diffusion schematic 2.jpg?raw=true"/></center>
-<br>
-
----
-
 ### Diffusion SDE - A score-based generative modelling with SDEs package
 
+**Diffusion SDE:**
+
+I developed a Python package centered around synthesizing novel and unseen images through the utilization of score-based generative models. Distinguishing itself from conventional Generative Adversarial based approaches, this innovative solution presents substantial enhancements in image synthesis. By providing an image dataset of choice as input, the package empowers users to effortlessly generate entirely new and previously unseen images. This project not only showcases my proficiency in Python programming but also underscores my commitment to advancing cutting-edge techniques for image synthesis, opening new possibilities in the realm of generative models. Explore the package to witness firsthand the transformative capabilities it brings to image synthesis, highlighting the strides made beyond traditional approaches in the field.
+
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Diffusion-SDE)
+
 <br>
 <center><img src="images/header.png?raw=true"/></center>
 <br>
@@ -43,6 +35,10 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 ---
 
 ### Paired Image to Image Translation using Diffusion Models
+
+**Paired Image to Image Translation:**
+
+This project centers around the implementation of a Score-based Generative Model designed for paired image-to-image translations. Specifically, I've tackled the challenge of transforming satellite images (Domain A) into their corresponding map-style representations (Domain B) and vice versa. Leveraging the power of PyTorch, a leading deep learning framework, I meticulously trained these models to enable seamless transitions between the two distinct domains. The project not only underscores my proficiency in machine learning and computer vision but also demonstrates the practical application of advanced techniques in solving real-world problems. Explore the showcased transformations to witness the fusion of technology and creativity, showcasing the potential of this Score-based Generative Model in the context of image processing and computer vision.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/paired-via-sde)
 <br>
@@ -53,7 +49,14 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 
 ### CycleGans for Medical Image Translation
 
+**CycleGans:**
+
+This project involves the implementation of a CycleGAN model for unpaired image-to-image translation, specifically from Domain A to Domain B. Domain A is composed of digital images from diabetic retinopathy screening, focusing on the retina. In contrast, Domain B comprises images highlighting the vasculature of the same retinal images. Notably, Domain B images feature meticulous annotations crafted by highly trained professionals.
+
+The objective of this project is to automate the generation of annotated images from retinal images, leveraging the power of CycleGAN. This groundbreaking approach signifies a departure from traditional methods, introducing automation to the production of vasculature annotations. The implementation showcases my expertise in advanced image processing techniques, pushing the boundaries of what's achievable in the realm of medical image analysis. Dive into the project to witness the potential impact of CycleGAN in streamlining diabetic retinopathy screening and contributing to the field of automated medical image annotation.
+
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/CycleGANs)
+
 <br>
 <center><img src="images/cyc_gan.png?raw=true"/></center>
 <br>
@@ -62,6 +65,7 @@ This project emphasizes the seamless integration of advanced analytics, cloud te
 
 ### Unpaired Image-to-Image Translation (Master's Project)
 
+**Unpaired Image-to-Image Translation:**
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Unpaired-via-SDE)
 
