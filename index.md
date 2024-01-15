@@ -22,11 +22,11 @@
 
 ### Diffusion SDE - A score-based generative modelling with SDEs package
 
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Diffusion-SDE)
+
 **Diffusion SDE:**
 
 I developed a Python package centered around synthesizing novel and unseen images through the utilization of score-based generative models. Distinguishing itself from conventional Generative Adversarial based approaches, this innovative solution presents substantial enhancements in image synthesis. By providing an image dataset of choice as input, the package empowers users to effortlessly generate entirely new and previously unseen images. This project not only showcases my proficiency in Python programming but also underscores my commitment to advancing cutting-edge techniques for image synthesis, opening new possibilities in the realm of generative models. Explore the package to witness firsthand the transformative capabilities it brings to image synthesis, highlighting the strides made beyond traditional approaches in the field.
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Diffusion-SDE)
 
 <br>
 <center><img src="images/header.png?raw=true"/></center>
@@ -36,11 +36,13 @@ I developed a Python package centered around synthesizing novel and unseen image
 
 ### Paired Image to Image Translation using Diffusion Models
 
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/paired-via-sde)
+
 **Paired Image to Image Translation:**
 
 This project centers around the implementation of a Score-based Generative Model designed for paired image-to-image translations. Specifically, I've tackled the challenge of transforming satellite images (Domain A) into their corresponding map-style representations (Domain B) and vice versa. Leveraging the power of PyTorch, a leading deep learning framework, I meticulously trained these models to enable seamless transitions between the two distinct domains. The project not only underscores my proficiency in machine learning and computer vision but also demonstrates the practical application of advanced techniques in solving real-world problems. Explore the showcased transformations to witness the fusion of technology and creativity, showcasing the potential of this Score-based Generative Model in the context of image processing and computer vision.
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/paired-via-sde)
+
 <br>
 <center><img src="images/paired.png?raw=true"/></center>
 <br>
@@ -49,13 +51,13 @@ This project centers around the implementation of a Score-based Generative Model
 
 ### CycleGans for Medical Image Translation
 
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/CycleGANs)
+
 **CycleGans:**
 
 This project involves the implementation of a CycleGAN model for unpaired image-to-image translation, specifically from Domain A to Domain B. Domain A is composed of digital images from diabetic retinopathy screening, focusing on the retina. In contrast, Domain B comprises images highlighting the vasculature of the same retinal images. Notably, Domain B images feature meticulous annotations crafted by highly trained professionals.
 
 The objective of this project is to automate the generation of annotated images from retinal images, leveraging the power of CycleGAN. This groundbreaking approach signifies a departure from traditional methods, introducing automation to the production of vasculature annotations. The implementation showcases my expertise in advanced image processing techniques, pushing the boundaries of what's achievable in the realm of medical image analysis. Dive into the project to witness the potential impact of CycleGAN in streamlining diabetic retinopathy screening and contributing to the field of automated medical image annotation.
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/CycleGANs)
 
 <br>
 <center><img src="images/cyc_gan.png?raw=true"/></center>
