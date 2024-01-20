@@ -8,6 +8,8 @@
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/predictive-maintenance-ml)
 
+[![View Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pm-app-mjx2m72y9ajpuzsdeexmnm.streamlit.app/)
+
 **Real-Time Anomaly Detection App:** 
 Developed a robust three-tier application aimed at delivering a comprehensive machine learning solution for predictive maintenance. The system encompasses a user-friendly web interface powered by Streamlit for real-time monitoring of equipment health, a sophisticated machine learning model designed for anomaly detection, and a MongoDB-based database ensuring efficient storage and retrieval of predictions. By seamlessly integrating advanced analytics, cloud technology, and thoughtful user interface design, the application proves highly effective in preventing potential equipment failures and enhancing overall operational efficiency. The system relies on a combination of statistical methods and machine learning algorithms to analyze sensor data, specifically leveraging the renowned IMS Bearing Data from the Center for Intelligent Maintenance Systems. Deployed on a cloud platform, the solution not only detects anomalies in real-time but also provides a user-friendly web application displaying predictions, time waveforms, and FFT spectra. The incorporation of MongoDB further contributes to the system's efficiency in proactive equipment maintenance by facilitating seamless storage and retrieval of predictions.
 
