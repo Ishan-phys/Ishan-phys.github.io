@@ -7,7 +7,6 @@
 ### Predictive Maintenance using Machine Learning based Anomaly Detection - End-to-End Solution
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/predictive-maintenance-ml)
-
 [![View Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pm-app-mjx2m72y9ajpuzsdeexmnm.streamlit.app/)
 
 **Real-Time Anomaly Detection App:** 
