@@ -84,4 +84,4 @@ The objective of this project is to automate the generation of annotated images 
 
 ---
 
-<center>© 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.</center>
+<center> Powered by Jekyll and the Minimal Theme.</center>
