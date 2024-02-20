@@ -4,8 +4,7 @@
 
 ## Web Scraping Automation
 
-### 
-Premier League Table Scraper with Airflow and Google BigQuery
+### Premier League Table Scraper with Airflow and Google BigQuery
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/league-table-scraper.git)
 
