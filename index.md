@@ -2,6 +2,20 @@
 
 ---
 
+## Web Scraping Automation
+
+### 
+Premier League Table Scraper with Airflow and Google BigQuery
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/league-table-scraper.git)
+
+**Barclays Premier League Table - Weekly Update:** 
+This project leverages Apache Airflow to schedule web scraping of the Premier League table, extracting leaderboard information. The scraped data is seamlessly ingested into Google BigQuery for efficient storage and analysis. The Google Cloud Platform infrastructure, specifically the BigQuery setup, is orchestrated using Terraform. To enhance portability and scalability, Airflow tasks are encapsulated within a Docker container, facilitated by a customized docker-compose file, ensuring a streamlined and reproducible workflow for periodic data updates.
+
+<br>
+<center><img src="images/streamlit.png?raw=true"/></center>
+<br>
+
 ## Machine Learning
 
 ### Predictive Maintenance using Machine Learning based Anomaly Detection - End-to-End Solution
