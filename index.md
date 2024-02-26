@@ -12,7 +12,7 @@
 This project leverages Apache Airflow to schedule web scraping of the Premier League table, extracting leaderboard information. The scraped data is seamlessly ingested into Google BigQuery for efficient storage and analysis. The Google Cloud Platform infrastructure, specifically the BigQuery setup, is orchestrated using Terraform. To enhance portability and scalability, Airflow tasks are encapsulated within a Docker container, facilitated by a customized docker-compose file, ensuring a streamlined and reproducible workflow for periodic data updates.
 
 <br>
-<center><img src="images/streamlit.png?raw=true"/></center>
+<center><img src="images/bpl.png?raw=true"/></center>
 <br>
 
 ## Machine Learning
