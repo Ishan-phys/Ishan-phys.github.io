@@ -9,8 +9,7 @@
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/llms-project.git)
 
 **RAG Flask App feat Pinecone:** 
-
-I spearheaded the development of a comprehensive app for a medical assistant chatbot, utilizing cutting-edge technology and tools. The chatbot itself was constructed using the powerful LLM llama-2-7B model, seamlessly integrated with HuggingFace and LangChains library for efficient local processing. To enhance the chatbot's capabilities, I converted the medical encyclopedia into embeddings, which were then stored on the Pinecone vector database. The deployment process was carefully executed, ensuring optimal performance and accessibility. This project showcases my proficiency in leveraging advanced models and libraries to create end-to-end solutions for complex applications, particularly in the realm of medical assistance and information retrieval.
+Developed a comprehensive app for a medical assistant chatbot, utilizing cutting-edge technology and tools. The chatbot itself was constructed using the powerful LLM llama-2-7B model, seamlessly integrated with HuggingFace and LangChains library for efficient local processing. To enhance the chatbot's capabilities, I converted the medical encyclopedia into embeddings, which were then stored on the Pinecone vector database. The deployment process was carefully executed, ensuring optimal performance and accessibility. This project showcases my proficiency in leveraging advanced models and libraries to create end-to-end solutions for complex applications, particularly in the realm of medical assistance and information retrieval.
 
 <br>
 <center><img src="images/chatbot.png?raw=true"/></center>
