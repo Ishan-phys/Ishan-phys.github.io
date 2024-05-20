@@ -4,6 +4,17 @@
 
 ## Generative AI - LLMs
 
+### Food Label Reader App
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/food-labels-gemini)
+
+**Food Label Reader App:**
+Developed a cutting-edge application that utilizes Large Language Models (LLMs) to extract and interpret food labels. The app integrates seamlessly with Google Gemini Text and Vision Pro models, enabling efficient processing of image data. Leveraging the power of LLMs, the application accurately identifies essential information from food labels, including ingredients, nutritional content, and allergens. Its user-friendly interface ensures a smooth experience, allowing users to effortlessly scan and understand food labels. The Retrieval-Augmented Generation (RAG) system enhances the LLM's ability to provide accurate information about the food labels. This project highlights my expertise in creating innovative solutions that connect advanced AI models with practical applications, specifically in food labeling and information extraction.
+
+<br>
+<center><img src="images/uploaded_file.jpg?raw=true"/></center>
+<br>
+
 ### Medical Chatbot using Large Language Models (llama2)
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/llms-project.git)
