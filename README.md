@@ -2,7 +2,7 @@
 
 Source for my portfolio site, built with Jekyll and the Minimal theme and published with GitHub Pages at <https://ishan-phys.github.io>.
 
-The site presents selected work in applied AI, data engineering and machine learning. Every project has a short write-up covering the problem and motivation, how it was solved, and a summary of the result, with a link to its repository.
+The site presents my experience, education and selected projects in applied AI, data engineering and machine learning. Each project has a short write-up covering the problem and motivation, how it was solved, and a summary of the result, with a link to its repository.
 
 ## Structure
 
@@ -12,7 +12,7 @@ The site presents selected work in applied AI, data engineering and machine lear
 | `_config.yml` | Site title, header text and links, theme |
 | `_layouts/default.html` | Page layout |
 | `images/` | Project figures and screenshots |
-| `pdf/` | Résumé and project report |
+| `pdf/` | Résumé and Master's thesis report |
 
 ## Run locally
 

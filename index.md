@@ -1,19 +1,68 @@
+---
+layout: default
+description: "Portfolio of Ishan Srivastava, software engineer building production agentic AI systems and data pipelines. Experience, education and selected projects."
+---
+
 # Portfolio
 
-Selected projects in applied AI, data engineering and machine learning. Each entry follows the same structure: the **problem and motivation**, **how it was solved**, and a short **summary** of the result and the stack.
+Experience, education and selected projects. The project write-ups follow one structure: the **problem and motivation**, **how it was solved**, and a short **summary** of the result and stack.
 
-| Area | Projects |
+| Section | Contents |
 | --- | --- |
-| Software Engineering and AI Applications | [AI CFO: private personal finance ledger with an AI assistant](#ai-cfo-a-private-local-first-personal-finance-ledger-with-an-ai-assistant) |
-| Generative AI and LLMs | [Food Label Reader](#food-label-reader-app) · [Medical Chatbot (Llama 2 + RAG)](#medical-chatbot-using-large-language-models-llama-2) |
-| Data Engineering | [Premier League Table Pipeline](#premier-league-table-scraper-with-airflow-and-google-bigquery) |
-| Machine Learning | [Predictive Maintenance](#predictive-maintenance-using-machine-learning-based-anomaly-detection) |
-| Computer Vision | [Diffusion SDE package](#diffusion-sde-a-score-based-generative-modelling-package) · [Paired image translation](#paired-image-to-image-translation-using-diffusion-models) · [CycleGAN for retinal images](#cyclegans-for-medical-image-translation) · [Unpaired translation (Master's thesis)](#unpaired-image-to-image-translation-masters-project) |
-| Research | [Publications](#publications) |
+| [Experience](#experience) | Suki.ai · Intellithink Industrial IoT Labs |
+| [Education](#education) | Durham University: MSc and MSci |
+| [Skills](#skills) | Languages, databases, cloud, AI and agents |
+| [Applied AI and Software Engineering](#applied-ai-and-software-engineering) | [AI CFO](#ai-cfo-a-private-local-first-personal-finance-ledger-with-an-ai-assistant) |
+| [Machine Learning](#machine-learning) | [Predictive maintenance](#predictive-maintenance-using-machine-learning-based-anomaly-detection) |
+| [Computer Vision and Generative Models](#computer-vision-and-generative-models) | [Diffusion SDE](#diffusion-sde-a-score-based-generative-modelling-package) · [Paired translation](#paired-image-to-image-translation-using-diffusion-models) · [CycleGAN](#cyclegans-for-medical-image-translation) · [Unpaired translation](#unpaired-image-to-image-translation-masters-project) |
+| [Publications](#publications) | Journal of High Energy Physics |
 
 ---
 
-## Software Engineering and AI Applications
+## Experience
+
+### Suki.ai: Software Engineer II
+*Bengaluru · Aug 2025 to present*
+
+- Built Suki.ai's first production agentic service for patient-chart and general medical knowledge queries (Google ADK, PostgreSQL, Redis, Langfuse), taking it from prototype to 10K requests per day with P50 latency under 20 seconds through targeted caching.
+- Reworked retrieval for temporal queries (up to 50% faster) and added handling for negation and other query types the system previously could not answer, lifting accuracy on those cases by up to 40%.
+- Integrated PubMed's open APIs through tool calling to tighten citation integrity on medical responses.
+- Set up the agent's evaluation foundation from scratch: gold datasets, evaluation pipelines and Langfuse-based observability, so regressions are caught in the data rather than by a customer.
+- Designed a patient-document ingestion pipeline moving terabyte-scale clinical data from EMR systems into GCP FHIR Stores, generating embeddings stored in PostgreSQL with pgvector to power RAG-based semantic and lexical retrieval.
+- Built an internal LLM Manager/Router package used across engineering pods for standardized model routing, token-aware load balancing and dynamic provider fallback, letting SREs reroute traffic during GCP Vertex AI outages without touching Kubernetes pods or backend code.
+- Introduced a spec-driven development workflow adopted by other pods; teams using it delivered features close to 2x faster.
+
+### Intellithink Industrial IoT Labs: Backend Software Engineer
+*Bengaluru · Sep 2022 to Jul 2025*
+
+- Redesigned IoT data ingestion around AWS Kinesis and Lambda batching, moving toward a more serverless setup and cutting cloud spend by 25%.
+- Added Parquet compression and S3 lifecycle policies that reduced storage costs by 20% without affecting query performance.
+- Reworked the DynamoDB schema with local and global secondary indexes so dashboard queries resolve in a single call, bringing data-heavy dashboard page loads under 5 seconds.
+- Added a Redis caching layer in front of high-frequency API calls, reducing database load by 20% and improving response times by 10%.
+- Owned deployment of a real-time ML inference pipeline on SageMaker, wired into Lambda, SQS and DynamoDB; moving it to Dockerized serverless execution saved 25% on cost.
+- Tuned request handling with FastAPI, Nginx and Gunicorn with Uvicorn to process streaming IoT data concurrently, making inference roughly 2x faster.
+
+---
+
+## Education
+
+- **MSc, Scientific Computing and Data Analysis**, University of Durham (2021 to 2022). First Class Honours.
+- **MSci, Theoretical Physics**, University of Durham (2015 to 2019). First Class Honours.
+
+---
+
+## Skills
+
+| | |
+| --- | --- |
+| **Languages** | Python, Go, SQL |
+| **Databases** | PostgreSQL (pgvector), DynamoDB, MySQL, Redis |
+| **Cloud and infrastructure** | GCP (Vertex AI, Kubernetes, Helm, Grafana, FHIR Store), AWS (Lambda, S3, Kinesis, SageMaker), Docker, Git, Linux |
+| **AI and agents** | Google ADK, LLM tool calling, RAG, evaluation and observability (Langfuse), agent routing and fallback design |
+
+---
+
+## Applied AI and Software Engineering
 
 ### AI CFO: a private, local-first personal finance ledger with an AI assistant
 
@@ -52,86 +101,6 @@ AI CFO turns downloaded bank and card statements into a reconciled set of books 
 
 ---
 
-## Generative AI and LLMs
-
-### Food Label Reader App
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/food-labels-gemini)
-
-**Problem and motivation.**
-Nutrition labels are dense, vary in layout, and say little about whether a product suits a particular person. Reading ingredients, allergens and nutrient values and comparing them with recommended intakes is slow to do by hand. This project explores whether a multimodal LLM can read a photographed label and put it in context for the person buying the product.
-
-**How it was solved.**
-
-1. A user uploads a photo of a label and selects an age group and gender.
-2. Google Gemini's vision model extracts the ingredients, nutritional content and allergens from the image into structured text.
-3. Reference documents on recommended nutritional intakes were embedded with Google's embedding model and stored in a Chroma vector database.
-4. A Retrieval-Augmented Generation (RAG) step retrieves the nutritional goals for the selected demographic and prompts Gemini to compare the label against them, so the answer is grounded in the reference documents.
-5. The pipeline is served through a FastAPI backend with a simple web front end.
-
-**Summary.**
-The app turns a photo of a food label into an interpretation tailored to the user's age group and gender, with the retrieval step keeping answers tied to reference documents rather than the model's memory.
-
-**Stack:** Python, Google Gemini (text and vision), LangChain, Chroma, FastAPI.
-
-<br>
-<center><img src="images/uploaded_file.jpg?raw=true" alt="Food Label Reader app interface"/></center>
-<br>
-
----
-
-### Medical Chatbot using Large Language Models (Llama 2)
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/llms-project.git)
-
-**Problem and motivation.**
-General-purpose chatbots answer medical questions fluently but without grounding in a trusted source, which is a poor fit for a domain where accuracy matters. I wanted to build a question-answering assistant that answers from a specific medical encyclopedia and runs its language model locally, without sending queries to a third-party model API.
-
-**How it was solved.**
-
-1. The medical encyclopedia (PDF) was loaded and split into overlapping chunks of about 400 characters.
-2. Each chunk was converted into an embedding with a Sentence-Transformers model (`all-MiniLM-L6-v2`) and indexed in the Pinecone vector database.
-3. At query time, the most relevant chunks are retrieved and passed, together with the question, to a quantized Llama-2-7B-chat model running locally through LangChain and Hugging Face tooling.
-4. A Flask web application provides the chat interface.
-
-**Summary.**
-The result is an end-to-end retrieval-augmented medical assistant: the answers draw on the indexed encyclopedia, and the language model runs on local hardware.
-
-**Stack:** Python, Llama-2-7B (quantized), LangChain, Hugging Face, Pinecone, Flask.
-
-<br>
-<center><img src="images/chatbot.png?raw=true" alt="Medical chatbot web interface"/></center>
-<br>
-
----
-
-## Data Engineering
-
-### Premier League Table Scraper with Airflow and Google BigQuery
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/league-table-scraper.git)
-
-**Problem and motivation.**
-A league table is only a snapshot. To analyse how a season develops, each week's standings have to be captured and stored in a queryable form. This project automates that collection as a small but complete data pipeline, and it also served as a practical exercise in orchestration and infrastructure as code.
-
-**How it was solved.**
-
-1. An Apache Airflow DAG scrapes the Premier League table on a weekly schedule.
-2. The scraped standings are loaded into Google BigQuery for storage and analysis.
-3. The BigQuery resources on Google Cloud Platform are provisioned with Terraform, so the infrastructure is reproducible.
-4. The Airflow tasks run inside a Docker container started from a customised `docker-compose` file, which makes the setup portable.
-
-**Summary.**
-A scheduled, containerised pipeline that builds a historical record of league standings in BigQuery, with infrastructure defined in code.
-
-**Stack:** Python, Apache Airflow, Google BigQuery, Terraform, Docker.
-
-<br>
-<center><img src="images/bpl.png?raw=true" alt="Premier League table pipeline"/></center>
-<br>
-
----
-
 ## Machine Learning
 
 ### Predictive Maintenance using Machine Learning based Anomaly Detection
@@ -160,7 +129,7 @@ A three-tier application (Streamlit front end, ML service, MongoDB) that detects
 
 ---
 
-## Computer Vision
+## Computer Vision and Generative Models
 
 ### Diffusion SDE: a score-based generative modelling package
 
@@ -189,6 +158,7 @@ Installing it with `pip install diffusion_sde` and pointing it at an image folde
 ### Paired Image to Image Translation using Diffusion Models
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/paired-via-sde)
+[![Thesis report](https://img.shields.io/badge/Thesis-Read_the_report_(PDF)-informational)](pdf/ProjectReport.pdf)
 
 **Problem and motivation.**
 Many imaging tasks need to convert one kind of image into another, such as satellite photographs into map-style renderings. GAN-based methods such as pix2pix dominate this task, so I wanted to test whether a score-based diffusion model could do it with high fidelity to the ground truth.
@@ -237,15 +207,16 @@ The trained model generates vessel-annotation images directly from retinal photo
 ### Unpaired Image-to-Image Translation (Master's Project)
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/Ishan-phys/Unpaired-via-SDE)
+[![Thesis report](https://img.shields.io/badge/Thesis-Read_the_report_(PDF)-informational)](pdf/ProjectReport.pdf)
 
 **Problem and motivation.**
-Paired training data is often unavailable, so unpaired translation, where no image in one domain has a matching partner in the other, is the more general and harder problem. CycleGAN is the standard approach. My Master's thesis asked whether score-based generative models could be adapted to the unpaired setting.
+Paired training data is often unavailable, so unpaired translation, where no image in one domain has a matching partner in the other, is the more general and harder problem. CycleGAN is the standard approach. My Master's thesis (supervised by Dr Chris G Willcocks, Durham University) asked whether score-based generative models could be adapted to the unpaired setting.
 
 **How it was solved.**
 
 1. I extended the score-based SDE framework from the paired project to unpaired translation between two image domains.
 2. The model was trained on the horse2zebra benchmark and compared directly with CycleGAN outputs on the same inputs.
-3. The thesis report and code are in the repository.
+3. The full thesis report, covering both the paired and unpaired experiments, is linked above and the code is in the repository.
 
 **Summary.**
 In the comparison, the diffusion-based approach did not yet match CycleGAN on unpaired translation. The repository documents this and identifies improving it as future work.
