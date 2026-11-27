@@ -1,25 +1,22 @@
-title: Ishan Srivastava # your name (or website title) here
+title: Ishan Srivastava
 
-logo: "/images/img.png?raw=true" # your photo (or logo) here
+logo: "/images/img.png?raw=true"
 
-description: > # your text below (remove <br> elements if you don't need line breaks)
-
+description: >
   <p align="center">
   <a href="pdf/cv_ishan.pdf">Resume</a> |
   <a href="https://www.linkedin.com/in/ishansrivastava96/">LinkedIn</a> |
   <a href="https://github.com/Ishan-phys">GitHub</a>
   </p>
-  
-  I am a Data Scientist with a foundation in Theoretical Physics, 
-  presently working at Intellithink Industrial IoT Labs. 
-  My enthusiasm for continual learning drives me to actively share my knowledge in the most public and accessible manner possible 
-  <br><br>  
-  I specialize in leveraging Machine Learning and Deep Learning techniques for Predictive Maintenance and 
-  Anomaly Detection in the realm of Industrial Heavy Machinery and Equipment. 
-  Through the application of ML/DL, my efforts contribute to significant cost savings, mitigating unplanned downtime and optimizing maintenance expenditures, resulting in multimillion-dollar benefits for organizations.
+
+  Software Engineer II at Suki.ai in Bengaluru, building production agentic AI systems for healthcare:
+  retrieval, evaluation and observability, and the clinical data pipelines behind them.
   <br><br>
-  
+  Previously a backend engineer at Intellithink Industrial IoT Labs, where I worked on serverless data ingestion
+  and real-time ML inference on AWS, cutting cloud costs and speeding up inference.
+  <br><br>
+  I hold an MSc in Scientific Computing and Data Analysis and an MSci in Theoretical Physics, both from Durham University.
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
